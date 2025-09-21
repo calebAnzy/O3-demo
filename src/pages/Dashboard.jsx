@@ -19,19 +19,19 @@ export default function Dashboard() {
         id: 1,
         title: "Intro to Finance",
         description: "Learn the basics of money management and investments.",
-        image: "https://source.unsplash.com/400x250/?finance,stocks",
+        image: "/images/fintech.jpg",
       },
       {
         id: 2,
         title: "Blockchain Essentials",
         description: "Understand how blockchain works and its impact on fintech.",
-        image: "https://source.unsplash.com/400x250/?blockchain,crypto",
+        image: "/images/blockchain.jpg",
       },
       {
         id: 3,
         title: "Python for Fintech",
         description: "Hands-on coding with Python for data and fintech apps.",
-        image: "https://source.unsplash.com/400x250/?python,coding",
+        image: "/images/python.jpg",
       },
     ];
     setCourses(mockCourses);
